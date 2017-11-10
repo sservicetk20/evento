@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,500,600');
+body{
+	margin:0px;
+}
+h3{
+	margin:0px;
+}
+header {
+	height: 400px;
+	margin: 0px;
+}
+.principal {
+	background-image: url('../img/banner.png');
+	background-size:cover;
+	margin:0px;
+}
+.navegacion{
+	background: #EB6337;
+	color:white;
+	height: 60px;
+}
+.titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+.subtitulo{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+.titulo-naranja{
+	color:#EB6337;
+	font-style: normal;
+	font-weight: 600;
+}
+.navbar{
+	margin:auto;
+	position: relative;
+	width: 700px;
+}
+.nav{
+	position:relative;
+    width: 750px;
+    margin:auto;
+    margin-top:230px;
+}
+nav{
+	background: #EB6337;
+	height: 100px;
+}
+.menu li:after{
+	content: '|';
+	font-size: 15px;
+	color:white;
+	margin-left: 5px;
+}
+
+.menu {
+	font-size: 11px;
+	display: inline-block;
+	opacity: 0.7;
+}
+.menu li {
+	display:inline-block;
+	margin-left: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+footer{
+	background: #EB6337;
+	padding: 5px;
+}
+footer p{
+	color:white;
+	font-size: 12px;
+	text-align:center;
+	margin: 0px;
+}
