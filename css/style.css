@@ -80,3 +80,23 @@ footer p{
 	text-align:center;
 	margin: 0px;
 }
+
+.side-nav{
+	background-color: #EB6337;
+}
+.side-nav li a{
+	color:white;
+}
+@media screen and (max-width: 480px) {
+    .nav{
+    	display: none;
+    }
+    .navegacion {
+    	display: none;
+    }
+}
+@media screen and (min-width: 480px) {
+    .nav-responsive{
+    	display: none;
+    }
+}

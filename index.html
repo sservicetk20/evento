@@ -3,10 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>EventoNaranja</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	
+ <!--menu responsive-->
+  <nav class="nav-responsive">
+    <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="side-nav" id="mobile-demo">
+       <li><a href="">PRODUCTO</a></li>
+		<li><a href="">¿POR QUE EVENTO NARANJA?</a></li>
+		<li><a href="">PROGRAMA UN DEMO</a></li>
+		<li><a href="">ACERCA DE NOSOTROS</a></li>
+		<li><a href="">CORPORATIVO</a></li>
+		<li><a href="">SALA DE PRENSA</a></li>
+      </ul>
+    </div>
+  </nav>
+ <!---->
 
 	<header class="principal">
 		<div class="navegacion">
@@ -34,7 +51,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur itaque doloremque eligendi, ipsum veritatis modi architecto distinctio voluptatibus, natus quidem, nemo temporibus consequatur maxime blanditiis vitae inventore id consequuntur in?</p>
 		</article>
       </div>
-      <div class="col s6 offset-s6">
+      <div class="grid-example col s12 l6 m12 offset-l6">
       	<article class="texto-inicial">
 			<h5 class="titulo-naranja">Cumbre Alum</h5>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur itaque doloremque eligendi, ipsum veritatis modi architecto distinctio voluptatibus, natus quidem, nemo temporibus consequatur maxime blanditiis vitae inventore id consequuntur in?</p>
@@ -42,11 +59,11 @@
       </div>
     </div>
      <div class="row">
-     	<div class="col s6">
-     		<img src="img/img1.png" alt="img-uno" width="100%">
+     	<div class="col s12 l6">
+     		<img class="img-portada" src="img/img1.png" alt="img-uno" width="100%">
      	</div>
-     	<div class="col s6">
-     		<img src="img/img2.png" alt="img-uno" width="100%">
+     	<div class="col s12 l6">
+     		<img class="img-portada" src="img/img2.png" alt="img-uno" width="100%">
      	</div>
      </div>
 	</section>
@@ -59,6 +76,12 @@
       	<p>M: +57 301 436 22 39 | T: +57 1 750 54 56 Carrera 11A # 118-42, 110121, Bogotá D.C., Colombia</p>
 	  </div>
 	</footer>
-
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script>
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+		}) 
+	</script>
 </body>
 </html>
